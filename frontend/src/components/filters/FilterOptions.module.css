@@ -1,0 +1,128 @@
+.filterOptionsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.filterOptions {
+  display: flex;
+  align-items: center;
+}
+
+.displayOptions img {
+  margin-right: 10px;
+  height: auto;
+}
+.displayOption {
+  display: flex;
+}
+.filterOption {
+  display: flex;
+  gap: 15px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+
+  z-index: 1;
+}
+
+.dropdown:hover .options {
+  display: block;
+}
+
+.options div {
+  font-size: 14px;
+  color: #333;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.feature:hover {
+  background-color: rgba(0, 102, 255, 1);
+}
+/* .sort {
+  display: flex;
+  justify-content: flex-end;
+ 
+} */
+
+/* CSS for the searchBar component */
+
+/* Overall container */
+.searchBar {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 48px;
+  padding: 4px 35px;
+
+  border: 3px solid rgba(200, 200, 200, 1);
+
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+/* Search icon */
+.searchIcon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Input field */
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 26.55px;
+  font-weight: 400;
+  line-height: 39.31px;
+  text-align: left;
+
+  padding: 5px;
+  background-color: transparent;
+  color: #333;
+}
+
+input::placeholder {
+  color: rgba(102, 102, 102, 1);
+}
+
+.dropdownContainer {
+  display: flex;
+  background-color: rgba(217, 217, 217, 1);
+  padding: 10px 30px;
+  border-radius: 26.15px;
+  gap: 4px;
+  font-size: 23.43px;
+  font-weight: 500;
+  line-height: 27.45px;
+
+  color: rgba(0, 0, 0, 1);
+}
+.filterOptionContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+.feature {
+  padding: 6px 12px;
+}
+.feturedShowText {
+  padding: 6px 12px;
+}

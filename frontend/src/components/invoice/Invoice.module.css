@@ -1,0 +1,92 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.breadcrumb img {
+  margin-right: 8px;
+}
+
+.breadcrumb div {
+  margin-right: 8px;
+}
+.backToProductBtn {
+  padding: 10px 35px;
+  border-radius: 14px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 28.13px;
+  font-weight: 500;
+  line-height: 32.96px;
+  background: rgba(46, 0, 82, 1);
+  text-decoration: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.musicartInfo {
+  display: flex;
+  gap: 10px;
+}
+.musicartInfo div {
+  font-size: 44.13px;
+  font-weight: 600;
+  line-height: 51.71px;
+  color: rgba(46, 0, 82, 1);
+}
+.musicartInfo span {
+  font-size: 26.41px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+}
+.titleText {
+  text-align: center;
+  font-size: 39.83px;
+  font-weight: 700;
+}
+.invoiceInfo {
+  display: flex;
+  gap: 20px;
+}
+.invoiceItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  border-bottom: 2.87px solid rgba(225, 225, 225, 1);
+  padding: 40px 0;
+}
+.invoicePage {
+  padding: 50px;
+}
+.userInfo {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(121, 121, 121, 1);
+}
+.viewInvoiceBtn {
+  padding: 10px 35px;
+  border-radius: 14px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 28.13px;
+  font-weight: 500;
+  line-height: 32.96px;
+  background: rgba(46, 0, 82, 1);
+  text-decoration: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.invoiceIcon {
+  display: flex;
+  align-items: center;
+}
+.userName {
+  margin-bottom: 10px;
+}

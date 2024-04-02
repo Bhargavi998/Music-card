@@ -1,0 +1,274 @@
+.cartContainer {
+  padding: 50px;
+}
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.breadcrumb img {
+  margin-right: 8px;
+}
+
+.breadcrumb div {
+  margin-right: 8px;
+}
+.backToProductBtn {
+  padding: 10px 35px;
+  border-radius: 14px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 28.13px;
+  font-weight: 500;
+  line-height: 32.96px;
+  background: rgba(46, 0, 82, 1);
+  text-decoration: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.musicartInfo {
+  display: flex;
+  gap: 10px;
+}
+.musicartInfo div {
+  font-size: 44.13px;
+  font-weight: 600;
+  line-height: 51.71px;
+  color: rgba(46, 0, 82, 1);
+}
+.musicartInfo span {
+  font-size: 26.41px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+}
+/* Styles for the cart container */
+/* Cart container styles */
+.itemListContainer {
+}
+
+.cartTitle {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 80px;
+}
+
+.itemImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+  border: 2px solid rgba(46, 0, 82, 1);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.itemName {
+  font-size: 26px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+}
+
+.itemPrice {
+  font-size: 26px;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+
+.quantityLabel {
+  font-size: 26px;
+  font-weight: 600;
+  margin-right: 5px;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* Cart.module.css */
+
+.customDropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.quantityDropdown {
+  position: relative;
+  width: 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.quantityDropdown option:last-child {
+  border-bottom: none;
+}
+
+.quantityDropdown option {
+  background-color: #fff;
+  color: #333;
+  border-bottom: 1px solid rgba(190, 190, 190, 1);
+  padding: 5px 10px;
+}
+.quantityDropdown option:hover {
+  background-color: #c4c4c4;
+}
+.totalPrice {
+  font-size: 26px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Price details styles */
+.priceDetailsContainer {
+  width: 20%;
+}
+
+.mainSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+/* Additional styles can be added as needed */
+
+/* Additional styles can be added as needed */
+.cartIconWrapper {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding: 50px;
+}
+.cartIconWrapper {
+  display: flex;
+  justify-content: center;
+}
+/* Price details container */
+
+/* Title */
+.priceDetailsTitle {
+  color: rgba(0, 0, 0, 1);
+  font-size: 25.17px;
+  font-weight: 600;
+  line-height: 31.09px;
+  margin-bottom: 10px;
+}
+
+/* Price details */
+.priceDetails {
+  font-size: 25.17px;
+  font-weight: 400;
+  line-height: 39.46px;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* Place order button */
+.placeOrderButton {
+  background: rgba(255, 214, 0, 1);
+  font-size: 20px;
+  font-weight: 600;
+
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.placeOrderButton:hover {
+  background: rgb(168, 142, 10);
+}
+.itemList {
+  max-height: 400px; /* Set the desired height for the scrollable area */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border-top: 2.87px solid rgba(225, 225, 225, 1);
+  border-bottom: 2.87px solid rgba(225, 225, 225, 1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.itemList::-webkit-scrollbar {
+  width: 0;
+  background: transparent; /* Optional: Set a background color */
+}
+.itemListContainer {
+  border-right: 2.87px solid rgba(225, 225, 225, 1);
+  width: 80%;
+}
+/* Additional styles can be added as needed */
+.dropDownToggle {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 102px;
+  border-radius: 2.87px;
+  border: 1px solid rgba(190, 190, 190, 1);
+  padding: 5px;
+}
+.totalDetailsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+
+  font-size: 29.93px;
+  font-weight: 500;
+  line-height: 36.97px;
+  text-align: left;
+}
+.itemTotalPriceContainer {
+  display: flex;
+  justify-content: center;
+}
+.itemStock {
+  color: rgba(162, 162, 162, 1);
+  font-size: 22.79px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.commonItemClass {
+  margin-top: 20px;
+}
+.itemImageContainer {
+}
+.itemContent {
+  display: flex; /* Create a flex container */
+  align-items: center; /* Vertically align child elements */
+}
+.itemFlex {
+  display: flex;
+}
+.commonClass {
+  display: flex;
+  flex-direction: column;
+}
+.priceDetails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.totalAmount {
+  margin-top: 150px;
+}
+.price {
+  font-weight: 400;
+}
