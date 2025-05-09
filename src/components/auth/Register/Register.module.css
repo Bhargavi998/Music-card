@@ -1,0 +1,212 @@
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  font-size: 44.13px;
+  font-weight: 600;
+  color: rgba(46, 0, 82, 1);
+  gap: 4px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.formContainer {
+  padding: 40px;
+  border: 3px solid rgba(217, 217, 217, 1);
+  border-radius: 23px;
+}
+.heading {
+  font-size: 49.13px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 10px;
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  border: 2px solid rgba(182, 182, 182, 1);
+  border-radius: 8px;
+  padding: 0 14px;
+}
+.error {
+  color: rgba(228, 28, 28, 1);
+}
+
+.inputError {
+  border-color: rgba(228, 28, 28, 1);
+}
+.label {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.button {
+  background-color: rgba(46, 0, 82, 1);
+  border: none;
+  outline: none;
+  text-decoration: none;
+  padding: 16px;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 27px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.agreementText {
+  display: flex;
+  flex-direction: column;
+  font-size: 21.75px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 20px;
+  line-height: 30px;
+}
+.terms {
+  font-size: 17.75px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+.loginLink {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.signInLink {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  font-size: 25.14px;
+  font-weight: 400;
+}
+.haveAccountText {
+  font-size: 25.14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+}
+.login {
+  border-bottom: 2px solid rgba(0, 0, 0, 1);
+  margin-left: 4px;
+}
+.logoContainerMobile {
+  display: none;
+}
+.welcomeText {
+  display: none;
+}
+.dot {
+  display: none;
+}
+.alreadyCustomer {
+  display: none;
+}
+@media (max-width: 425px) {
+  .logoContainerMobile {
+    display: flex;
+    background-color: rgba(46, 0, 82, 1);
+    gap: 4px;
+    padding: 10px;
+  }
+  .logoContainer {
+    display: none;
+  }
+  .logoContainerMobile div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 18.67px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+  }
+  .formContainer {
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .heading {
+    font-size: 15.7px;
+    font-weight: 600;
+  }
+
+  .label {
+    font-size: 13.35px;
+    font-weight: 600;
+  }
+
+  .error {
+    font-size: 14px;
+  }
+
+  .agreementText {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+  }
+
+  .terms {
+    font-size: 10.77px;
+    font-weight: 400;
+    line-height: 15.78px;
+  }
+
+  .loginLink {
+    margin-top: 40px;
+  }
+
+  .welcomeText {
+    display: block;
+    font-size: 31px;
+    font-weight: 400;
+    color: rgba(46, 0, 82, 1);
+    margin-bottom: 30px;
+  }
+  .container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .dot {
+    display: inline;
+  }
+  .alreadyCustomer {
+    display: inline;
+
+    font-size: 13.36px;
+    font-weight: 300;
+  }
+  .haveAccountText {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+  .signInLink {
+    margin-left: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .button {
+    font-size: 16.39px;
+    font-weight: 500;
+    padding: 12px;
+  }
+  .input {
+    font-size: 20px;
+  }
+  .footer {
+    display: none;
+  }
+}

@@ -1,0 +1,138 @@
+.formOpening {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 90px;
+  right: 130px;
+  cursor: pointer;
+}
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+} */
+
+/* Style for the form opening div */
+
+/* Style for the feedback form */
+.feedbackForm {
+  position: fixed;
+  bottom: 200px;
+  right: 35px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.37);
+  padding: 30px;
+}
+
+/* Dropdown container for feedback options */
+.dropdownContainer {
+  position: relative;
+}
+
+/* Selected option container */
+.selectedOption {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid rgba(145, 145, 145, 1);
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(145, 145, 145, 1);
+  background-color: rgba(243, 243, 243, 1);
+}
+
+.options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 10px;
+}
+
+.feedbackHeading {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 4px;
+}
+.feedbackTextArea {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.textarea {
+  appearance: none;
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 20px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid rgba(145, 145, 145, 1);
+  font-size: 18px;
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(145, 145, 145, 1);
+  font-family: "Roboto", sans-serif;
+  background: rgba(243, 243, 243, 1);
+}
+.label {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 4px;
+}
+.option {
+  padding: 10px;
+  border-bottom: 1px solid rgba(221, 221, 221, 1);
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(145, 145, 145, 1);
+}
+.option:hover {
+  background-color: rgb(212, 212, 212);
+  cursor: pointer;
+}
+.error {
+  color: rgba(228, 28, 28, 1);
+}
+.submitButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+.submitButton {
+  border: none;
+  background: rgba(46, 0, 82, 1);
+  border-radius: 26.12px;
+  padding: 7px 21px;
+  font-size: 21px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 10px;
+}
+.errorBorder {
+  border-color: rgba(228, 28, 28, 1);
+}
+@media (max-width: 425px) {
+  .container {
+    display: none;
+  }
+}

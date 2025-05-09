@@ -1,0 +1,540 @@
+.container {
+  padding: 40px;
+}
+.backIcon {
+  display: none;
+}
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.line6 {
+  display: none;
+}
+.breadcrumb img {
+  margin-right: 8px;
+}
+
+.breadcrumb div {
+  margin-right: 8px;
+}
+.backToProductBtn {
+  padding: 10px 35px;
+  border-radius: 14px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 28.13px;
+  font-weight: 500;
+  line-height: 32.96px;
+  background: rgba(46, 0, 82, 1);
+  text-decoration: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.musicartInfo {
+  display: flex;
+  gap: 10px;
+}
+.musicartInfo div {
+  font-size: 44.13px;
+  font-weight: 600;
+  line-height: 51.71px;
+  color: rgba(46, 0, 82, 1);
+}
+.musicartInfo span {
+  font-size: 26.41px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+}
+.mainSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemImage img {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  border: 2px solid rgba(46, 0, 82, 1);
+  cursor: pointer;
+}
+.itemImageContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 42px;
+}
+.CheckoutTitle {
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 39.83px;
+  font-weight: 500;
+  border-bottom: 3px solid rgba(0, 0, 0, 1);
+}
+.titleContainer {
+  display: flex;
+  justify-content: center;
+}
+.userDetailsFillingContainer {
+  display: flex;
+  gap: 90px;
+}
+.stepsContainer {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  row-gap: 15px;
+}
+
+.usersDetailsFilling {
+  width: 70%;
+}
+/* Base styles for the address container */
+.addressDetails {
+  padding: 5px;
+}
+
+/* Input field styles */
+.addressInput {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  resize: none;
+  outline: none;
+  border: none;
+  background: transparent;
+  text-decoration: none;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 42.92px;
+  color: rgba(121, 121, 121, 1);
+}
+.addressInput::-webkit-scrollbar {
+  width: 0;
+  background: transparent; /* Optional: Set a background color */
+}
+/* Text below the input field */
+.addressDetails div {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  margin-top: 10px;
+}
+.dropContainer {
+  display: flex;
+  justify-content: space-between;
+
+  border: 1px solid rgba(145, 145, 145, 1);
+  border-radius: 5px;
+
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(121, 121, 121, 1);
+}
+
+.step {
+  font-size: 35.46px;
+  font-weight: 500;
+  color: rgba(181, 43, 0, 1);
+}
+.deliveryAddress {
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 42.92px;
+  color: rgba(121, 121, 121, 1);
+}
+.paymentMethods {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.paymentContainer {
+}
+.userName {
+  padding: 15px;
+}
+.line1 {
+  border-bottom: 2.87px solid rgba(225, 225, 225, 1);
+  margin-top: 20px;
+}
+.line2 {
+  border-bottom: 2.87px solid rgba(225, 225, 225, 1);
+  margin-bottom: 20px;
+}
+.line3 {
+  border-bottom: 2.87px solid rgba(225, 225, 225, 1);
+  margin-top: 20px;
+}
+.productName {
+  font-size: 29.93px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 30px;
+}
+.estimatedDeliveryText {
+  font-size: 29.93px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.productColor {
+  font-size: 29.93px;
+  font-weight: 500;
+  color: rgba(121, 121, 121, 1);
+  margin-top: 30px;
+}
+.placeOrderSection {
+  padding: 10px;
+  border: 4px solid rgba(225, 225, 225, 1);
+  border-radius: 16px;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.orderTotal {
+}
+.palceOrderBtn1 {
+  padding: 10px 20px;
+  background-color: rgba(255, 214, 0, 1);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+}
+.orderTotalPrice {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30.47px;
+  color: rgba(181, 43, 0, 1);
+}
+.orderText {
+  font-size: 19.63px;
+  font-weight: 400;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 1);
+}
+.palceOrderBtnContainer {
+  display: flex;
+  align-items: center;
+}
+.palceOrderBtn2 {
+  padding: 10px 20px;
+  background-color: rgba(255, 214, 0, 1);
+  border-radius: 8px;
+  font-size: 31.11px;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+.orderText2 {
+  color: rgba(0, 0, 0, 1);
+  font-size: 17.75px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 15px;
+}
+.line4 {
+  border-bottom: 2.87px solid rgba(225, 225, 225, 1);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.summaryDetails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 5px;
+  color: rgba(121, 121, 121, 1);
+  font-size: 20.75px;
+  font-weight: 400;
+
+  margin-top: 15px;
+}
+.orderSummaryText {
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 27.75px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.orderTotal2 {
+  font-size: 31.57px;
+  font-weight: 500;
+  line-height: 36.99px;
+  display: flex;
+  color: rgba(181, 43, 0, 1);
+  gap: 40px;
+}
+.placeOrderSection2 {
+  border: 4px solid rgba(225, 225, 225, 1);
+  border-radius: 16px;
+  padding: 20px;
+}
+.placeOrderSectionMobile {
+  display: none;
+}
+.line5 {
+  display: none;
+}
+@media (max-width: 425px) {
+  .container {
+    padding: 20px;
+  }
+  .breadcrumb {
+    display: none;
+  }
+
+  .CheckoutTitle {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .itemImage img {
+    height: 80px;
+    width: 80px;
+  }
+  .itemImageContainer {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .stepsContainer {
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+  .placeOrderSection {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .placeOrderSection .palceOrderBtn1 {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+  .placeOrderSection2 {
+  }
+  .summaryDetails {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5px;
+    font-size: 16px;
+  }
+  .orderSummaryText {
+    font-size: 20px;
+  }
+  .orderTotal2 {
+    font-size: 25px;
+    gap: 20px;
+  }
+  .step {
+    font-size: 17.82px;
+    font-weight: 500;
+    line-height: 20.88px;
+    text-align: left;
+  }
+  .userName {
+    font-size: 14.57px;
+    font-weight: 400;
+    line-height: 21.56px;
+    text-align: left;
+  }
+  .addressDetails {
+    padding: 5px;
+
+    border-radius: 5px;
+    width: 80vw;
+    border: 1px solid rgba(145, 145, 145, 1);
+  }
+
+  /* Input field styles */
+  .addressInput {
+    padding: 0;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    resize: none;
+    outline: none;
+    border: none;
+    background: transparent;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.92px;
+    color: rgba(121, 121, 121, 1);
+  }
+  .addressInput::-webkit-scrollbar {
+    width: 0;
+    background: transparent; /* Optional: Set a background color */
+  }
+  /* Text below the input field */
+  .addressDetails div {
+  }
+  .line1 {
+  }
+  .header {
+    width: 100vw;
+    margin-top: 0;
+  }
+  .dropContainer {
+    width: 80vw;
+  }
+  .paymentOption {
+    font-size: 14.57px;
+    font-weight: 400;
+    line-height: 17.03px;
+    text-align: left;
+    padding: 0;
+    width: 100%;
+  }
+  .paymentContainer {
+    font-size: 14.57px;
+    font-weight: 400;
+    line-height: 17.03px;
+    text-align: left;
+  }
+  .productName {
+    font-size: 15.24px;
+    font-weight: 600;
+    line-height: 18.83px;
+    text-align: left;
+  }
+  .productColor {
+    font-size: 13.65px;
+    font-weight: 400;
+    line-height: 16.86px;
+    text-align: left;
+    margin-top: 8px;
+  }
+  .estimatedDeliveryText {
+    font-size: 13.65px;
+    font-weight: 400;
+    line-height: 16.86px;
+    text-align: left;
+    margin-top: 8px;
+  }
+  .userDetailsFillingContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 40px;
+  }
+  .palceOrderBtn2 {
+    display: none;
+  }
+  .placeOrderSection2 {
+    border: none;
+    padding: 0;
+    margin-top: 0;
+  }
+  .orderText2 {
+    display: none;
+  }
+  .orderSummaryText {
+    font-size: 17.45px;
+    font-weight: 600;
+    line-height: 20.45px;
+  }
+  .placeOrderSection {
+    display: none;
+  }
+  .orderTotal2 {
+    display: none;
+  }
+  .line3 {
+    display: none;
+  }
+
+  .palceOrderBtn1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: center;
+  }
+  .palceOrderBtnContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .palceOrderBtnMobile {
+    background-color: rgba(255, 214, 0, 1);
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .orderTotal {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 19.57px;
+    font-weight: 500;
+    line-height: 22.93px;
+    text-align: center;
+    color: rgba(181, 43, 0, 1);
+    width: 100%;
+    margin: 15px 0;
+  }
+  .orderTotalvalue {
+    margin-right: 40px;
+  }
+  .backToProductBtn {
+    display: none;
+  }
+  .backIcon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 90px;
+  }
+  .CheckoutContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .titleContainer {
+    justify-content: flex-start;
+  }
+  .CheckoutTitle {
+    border: none;
+  }
+  .container {
+  }
+  .header {
+    margin-top: 0;
+
+    margin-right: 0;
+  }
+  .addressDetails {
+    border: none;
+  }
+  .line1 {
+    display: none;
+  }
+  .line2 {
+    display: none;
+  }
+  .line5 {
+    display: block;
+    border-bottom: 2.87px solid rgba(225, 225, 225, 1);
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .line6 {
+    display: block;
+    border-bottom: 2.87px solid rgba(225, 225, 225, 1);
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .container {
+    margin-bottom: 30px;
+  }
+  .placeOrderSectionMobile {
+    display: block;
+  }
+}

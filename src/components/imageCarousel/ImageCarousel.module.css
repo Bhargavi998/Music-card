@@ -1,0 +1,121 @@
+/* ImageGallery.module.css */
+
+.galleryContainer {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.largeBox {
+  flex: 1;
+  border: 2px solid rgba(46, 0, 82, 1);
+  padding: 20px;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+}
+
+.largeBox img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.largeBox img:hover {
+  transform: scale(1.05);
+}
+
+.smallBoxes {
+  display: flex;
+  gap: 10px;
+}
+.imageContainer {
+  flex-grow: 1;
+}
+.smallBoxes img {
+  max-width: 150px;
+  height: auto;
+  cursor: pointer;
+  border: 5px solid rgba(0, 0, 0, 1);
+  transition: transform 0.2s ease;
+  border-radius: 16px;
+}
+
+.smallBoxes img:hover {
+  transform: scale(1.1);
+}
+/* ImageCarousel.css */
+
+/* Container for the entire carousel */
+.carouselContainer {
+  display: none;
+}
+@media (max-width: 425px) {
+  .galleryContainer {
+    display: none;
+  }
+  .carouselContainer {
+    display: block;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+
+  /* Individual carousel slide */
+  .carouselSlide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Image styling */
+  .carouselSlide img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ImageCarousel.module.css */
+
+  .customDotContainer {
+    position: relative; /* Make the container relative for absolute positioning */
+    display: inline-flex; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    margin: 0 5px; /* Adjust spacing between dots */
+  }
+
+  .customArrow {
+    position: absolute; /* Position arrows absolutely */
+    top: 101%; /* Position arrows vertically centered */
+    transform: translateY(5%); /* Center arrows vertically */
+    z-index: 1; /* Ensure arrows are above the dots */
+  }
+
+  .prev {
+    left: 25%; /* Position the previous arrow at the left */
+  }
+
+  .next {
+    right: 25%; /* Position the next arrow at the right */
+  }
+
+  .customDot {
+    box-sizing: border-box;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .selected {
+    background-color: rgba(46, 0, 82, 1);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /* Define your color for selected image */
+  }
+
+  .unselected {
+    border: 1px solid rgba(219, 219, 219, 1); /* Define your color for unselected image */
+  }
+}

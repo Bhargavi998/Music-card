@@ -1,0 +1,102 @@
+/* CSS for the Header component */
+
+/* Overall container */
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+
+  background-color: rgba(46, 0, 82, 1);
+}
+
+/* Phone icon */
+.phoneIcon {
+  width: 30px;
+  height: 30px;
+}
+
+/* Phone number */
+.phoneNumber {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.09px;
+  text-align: left;
+}
+.phoneNumber span {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Promotional message */
+.promotion {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.09px;
+  display: flex;
+  gap: 1rem;
+}
+.promotion span {
+  color: rgba(255, 255, 255, 1);
+  margin-right: 10px;
+}
+
+/* Login and Signup links */
+.links ul {
+  display: flex;
+  font-size: 24.98px;
+  font-weight: 500;
+  line-height: 29.27px;
+  text-align: left;
+  gap: 7px;
+}
+.links li {
+  list-style: none;
+  margin-right: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+}
+.PhoneContainer {
+  display: flex;
+  gap: 14px;
+}
+.separator {
+  border-left: 2px solid rgba(255, 255, 255, 1);
+}
+.logout {
+  font-size: 24.98px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+.searchbar {
+  display: none;
+}
+@media (max-width: 425px) {
+  .headerContainer {
+    display: none;
+  }
+  .searchbar {
+    background: rgba(46, 0, 82, 1);
+    margin-top: 0;
+    width: 100vw;
+    padding: 20px;
+    position: fixed;
+    z-index: 3;
+    box-sizing: border-box;
+  }
+  .searchbar {
+    display: block;
+  }
+}

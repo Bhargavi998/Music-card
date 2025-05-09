@@ -1,0 +1,271 @@
+.filterOptionsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.filterOptions {
+  display: flex;
+  align-items: center;
+}
+
+.displayOptions img {
+  margin-right: 10px;
+  height: auto;
+}
+.displayOption {
+  display: flex;
+  gap: 5px;
+}
+.filterOption {
+  display: flex;
+  gap: 15px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.dropdown:hover .options {
+  display: block;
+}
+
+.options div {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.feature:hover {
+  background-color: rgba(0, 102, 255, 1);
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 48px;
+  padding: 4px 35px;
+  border: 3px solid rgba(200, 200, 200, 1);
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.searchIcon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 26.55px;
+  font-weight: 400;
+  line-height: 39.31px;
+  text-align: left;
+  padding: 5px;
+  background-color: transparent;
+  color: #333;
+}
+
+input::placeholder {
+  color: rgba(102, 102, 102, 1);
+}
+
+.dropdownContainer {
+  display: flex;
+  background-color: rgba(217, 217, 217, 1);
+  padding: 0.8vw 1.9vw; /* Adjusted padding relative to viewport width */
+  border-radius: 26.15px;
+  gap: 4px;
+  font-size: 1vw; /* Adjusted font size relative to viewport width */
+  font-weight: 500;
+  line-height: 1.2; /* Adjusted line height */
+  color: rgba(0, 0, 0, 1);
+  justify-content: center;
+  align-items: center;
+}
+.dropdownContainer img {
+  height: 1vw;
+  width: 1vw;
+}
+
+.filterOptionContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+.feature {
+  padding: 6px 12px;
+}
+.feturedShowText {
+  padding: 6px 12px;
+}
+.mobileSort {
+  display: none;
+}
+.desktopSort {
+  display: inline;
+}
+.searchBarMobile {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .dropdownContainer {
+    padding: 0.9vw 2.7vw;
+    font-size: 1.3vw;
+  }
+  .display {
+    margin-right: 0;
+  }
+  .displayOptions img {
+    margin-right: 0;
+  }
+  .filterOptionContainer {
+  }
+}
+
+@media (max-width: 425px) {
+  .desktopSort {
+    display: none;
+  }
+  .mobileSort {
+    display: inline;
+    margin-right: 10px;
+    margin-top: 0;
+  }
+  .sort {
+    display: flex;
+    align-items: flex-start;
+  }
+  .filterOptionsContainer {
+  }
+
+  .filterOptions {
+  }
+
+  .optionTitle {
+    white-space: nowrap;
+    display: flex;
+    height: 3vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .filterOptionContainer {
+    padding: 0;
+    overflow-x: scroll;
+    margin-left: 0;
+  }
+  .filterOptionContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .dropdownContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(217, 217, 217, 1);
+
+    border-radius: 6.26px;
+    gap: 4px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 27.45px;
+    color: rgba(0, 0, 0, 1);
+    justify-content: center;
+    align-items: center;
+    padding: 7px 22px;
+  }
+  .dropdownContainer img {
+    height: 1.5vw;
+    width: 1.5vw;
+  }
+  .dropdown {
+    position: relative;
+
+    cursor: pointer;
+  }
+
+  .options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+  }
+
+  .dropdown:hover .options {
+    display: block;
+  }
+
+  .options div {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .feature:hover {
+    background-color: rgba(0, 102, 255, 1);
+  }
+
+  .feturedShowText {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+
+  .displayOptions {
+    display: none;
+  }
+  .searchbarContainer {
+    display: none;
+  }
+  .searchBarMobile {
+    margin: 0;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 1);
+    padding: 4px 8px;
+    display: flex;
+
+    margin: 0 auto;
+  }
+  .searchBar {
+    display: none;
+  }
+  .searchBarMobile img {
+    margin-top: 5px;
+  }
+  .searchBarMobile input::placeholder {
+    font-size: 16.36px;
+    font-weight: 400;
+  }
+  .searchBarMobile input {
+    width: 80%;
+    font-size: 15px;
+    padding: 0;
+  }
+  .MobileSearchIcon {
+    width: 30px;
+  }
+}

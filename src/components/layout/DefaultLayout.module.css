@@ -1,0 +1,244 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 44.13px;
+  font-weight: 600;
+  line-height: 51.71px;
+  text-align: left;
+  color: rgba(46, 0, 82, 1);
+
+  margin-right: auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navLink {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  margin-right: 2vw;
+
+  font-size: 26.41px;
+  font-weight: 400;
+}
+.homeTitle {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  margin-right: 2vw;
+
+  font-size: 26.41px;
+  font-weight: 400;
+}
+.cart {
+  display: flex;
+  box-sizing: border-box;
+  background-color: rgba(29, 112, 0, 1);
+  align-items: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 22.23px;
+  font-weight: 400;
+  line-height: 26.05px;
+  gap: 7px;
+  border-radius: 47px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cartIcon {
+  height: 23px;
+  width: 23px;
+}
+.cartIconContainer {
+  display: flex;
+  align-items: center;
+}
+.user {
+  margin-left: 2vw;
+}
+
+.AdvertiseContainer {
+  padding: 35px 0;
+  background: linear-gradient(90deg, #7286b4 0%, #e794ce 100%);
+  border-radius: 29px;
+  position: relative;
+}
+
+.advertisement {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.adText {
+  padding-right: 20px;
+  font-size: 60px;
+  font-weight: 500;
+  color: rgba(46, 0, 82, 1);
+  text-align: left;
+  line-height: 60.37px;
+}
+
+.AdvertiseImageContainer {
+}
+
+.adImage {
+  max-width: 53%;
+  height: auto;
+  position: absolute;
+  right: -50px;
+  bottom: 0;
+}
+.navContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.iconContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user {
+  position: relative;
+}
+
+.initials {
+  font-size: 2vw;
+  border-radius: 50%;
+  border: 1px solid rgba(46, 0, 82, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 34.98px;
+  font-weight: 500;
+  line-height: 40.99px;
+  text-align: center;
+}
+
+.user:hover .options {
+  display: block;
+}
+
+.options {
+  position: absolute;
+  top: calc(100% + 5px);
+  right: -70px;
+  background-color: #fff;
+  margin: 0;
+  text-align: center;
+  font-size: 27.98px;
+  font-weight: 500;
+  line-height: 32.79px;
+  color: rgba(0, 0, 0, 1);
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.37);
+  z-index: 3;
+}
+
+.options button {
+  outline: none;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout:hover {
+  background-color: rgba(217, 217, 217, 1);
+}
+.line {
+  border-bottom: 1px solid rgba(221, 221, 221, 1);
+}
+.initialUser {
+  padding: 15px 30px;
+  display: flex;
+  white-space: nowrap;
+}
+.logout {
+  padding: 15px 30px;
+}
+.buyNow {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .options {
+    position: absolute;
+    top: calc(100% + 5px);
+    right: -40px;
+    background-color: #fff;
+    margin: 0;
+    text-align: center;
+    font-size: 27.98px;
+    font-weight: 500;
+    line-height: 32.79px;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.37);
+    z-index: 3;
+  }
+}
+@media (max-width: 425px) {
+  .nav {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .buyNow {
+    position: relative;
+    display: inline;
+    background: rgba(46, 0, 82, 1);
+    padding: 7px 21px;
+    border-radius: 25.36px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 9.32px;
+    font-weight: 400;
+    bottom: 30px;
+  }
+  .AdvertiseContainer {
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 130px;
+    border-radius: 7px;
+  }
+  .adImage {
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    width: 53%;
+  }
+  .adText {
+    font-size: 20.55px;
+    font-weight: 500;
+    position: relative;
+    top: -20px;
+    line-height: 20px;
+  }
+}
